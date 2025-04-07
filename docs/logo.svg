@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="softBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5CA4EA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A7BD5;stop-opacity:1" />
+    </linearGradient>
+    <clipPath id="circleView">
+      <circle cx="250" cy="250" r="225"/>
+    </clipPath>
+  </defs>
+
+  <rect width="500" height="500" rx="50" fill="url(#softBlueGradient)"/>
+
+  <path d="M250 150
+           A100 100 0 1 1 250 350
+           A100 100 0 1 1 250 150"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="15"
+        opacity="0.8"/>
+
+  <path d="M150 250
+           Q250 200, 350 250
+           Q250 300, 150 250"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="10"
+        stroke-dasharray="20 15"
+        opacity="0.9"/>
+
+  <circle cx="150" cy="250" r="20" fill="#ffffff" opacity="0.9"/>
+  <circle cx="350" cy="250" r="20" fill="#ffffff" opacity="0.9"/>
+
+  <path d="M250 225 L250 275"
+        stroke="#ffffff"
+        stroke-width="5"
+        opacity="0.7"/>
+</svg> 
